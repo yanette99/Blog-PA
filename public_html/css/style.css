@@ -1,0 +1,13 @@
+.nav-wrapper {
+    background-image: url("http://38.media.tumblr.com/180314b4fffe6cddf42b03fdfe1dbb38/tumblr_inline_mg0cjsT9rY1rqxgho.jpg");
+}
+
+body{
+    background-color: #e0e0e0;
+}
+
+.niko {
+    font-family: 'Catamaran', sans-serif;
+    height: 50px;
+    width: 30px;
+}
