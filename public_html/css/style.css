@@ -3,7 +3,7 @@
 }
 
 body{
-    background: url("http://e2ua.com/data/wallpapers/24/WDF_718183.jpg");
+    background: url("");
 }
 
 .niko {
@@ -11,3 +11,66 @@ body{
     height: 50px;
     width: 30px;
 }
+
+.parallax-container {
+      height: 10px;
+    }
+    
+body  {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+/*Blog Posts*/
+
+.blog-post {
+    margin-bottom: 60px;
+}
+
+.blog-post-title {
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+.blog-post-meta {
+    margin-bottom: 20px;
+    color: #999;
+    font-style: italic;
+}
+   header, main, footer {
+      padding-left: 240px;
+    }
+
+    @media only screen and (max-width : 992px) {
+      header, main, footer {
+        padding-left: 0;
+      }
+    } 
+    
+    .container{
+        color: #999;
+        font-size: 20px;
+    }
+    
+    #slide-out{
+        background-color: #292929;
+        font-size: 70px;
+    }   
+    
+    h1, h2 {
+     color: #999;  
+    }
+    
+    body{
+        background-color: black;
+    }
+    
+    img {
+        width: 60px;
+        height: auto;
+    }
