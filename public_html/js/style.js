@@ -40,7 +40,4 @@ function Posts(args) {
     this.content = args.content || "";
     this.authorEmail = args.authorEmail || "";
 }
-
- $(document).ready(function(){
-      $('.parallax').parallax();
-    });
+    
