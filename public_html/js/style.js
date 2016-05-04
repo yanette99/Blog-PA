@@ -5,10 +5,10 @@ $(function () {
         
     Backendless.initApp(APPLICATION_ID, SECRET_KEY, VERSION);
     
-    var user = new Backendless.User();
-    user.email = "yannettee.a@gmail.com";
-    user.password ="password";
-    Backendless.UserService.register(user);
+   //var user = new Backendless.User();
+    //user.email = "yannettee.a@gmail.com";
+    //user.password ="password";
+   // Backendless.UserService.register(user);
     
     
     var postsCollection = Backendless.Persistence.of(Posts).find();
