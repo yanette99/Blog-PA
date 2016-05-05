@@ -1,6 +1,5 @@
 .nav-wrapper {
-    background-image: url("http://rs1150.pbsrc.com/albums/o611/DaRnIzZIe/Odd%20Future%20Wallpaper/OddFuture.png~c200");
-    padding-left: 200px;
+   background-image: url("http://rs1150.pbsrc.com/albums/o611/DaRnIzZIe/Odd%20Future%20Wallpaper/OddFuture.png~c200");
 }
 
 .niko {
@@ -35,7 +34,7 @@ main {
     font-style: italic;
 }
    header, main, footer {
-      padding-left: 240px;
+      padding-left: 0px;
     }
 
     @media only screen and (max-width : 992px) {
